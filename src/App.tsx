@@ -18,11 +18,6 @@ export interface GameQuery {
 }
 function App() {
   const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery);
-
-  function setSelectedPlatform(platform: Platform): void {
-    throw new Error("Function not implemented.");
-  }
-
   return (
     <Grid
       templateAreas={{
